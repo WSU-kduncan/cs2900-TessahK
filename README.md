@@ -1,2 +1,2 @@
-# CEG2350 - Lab Work
-Lab work for CEG 2350 at Wright State University, Department of Computer Science and Engineering
+# CS2900 - Lab Work
+Lab work for CS 2900 at Wright State University, Department of Computer Science and Engineering
