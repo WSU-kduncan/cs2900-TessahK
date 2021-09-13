@@ -1,1 +1,3 @@
 # Project 1 Documentation
+## Part 1
+I opened VirtualBox and created and selected Linux as my VM type and Ubuntu as my version. I allocated 2048 MB of RAM. I then selected VDI as my virtual hard disk file type. I am dynamically allocating storage so that way it does not immediately take up all the space that I give it. I chose the reccomended size and gave my VM 10GB of storage. In the storage settings of my VM I added an Ubuntu 20.04 ISO.
