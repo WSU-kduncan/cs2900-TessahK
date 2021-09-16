@@ -10,10 +10,13 @@
 - I chose to set up a bridged network on my VM. Inside of settings, I went to the network portion and enabled a second network adapter. I set this one to bridged adapter and then restarted my VM. I checked the IP settings and confirmed that another IP had been assigned to my VM and it was on the same subnet as my host machine which is 192.168.1.0/24. To verify that it worked I went to my host and typed the IP into the browser to confirm that the Apache page would load.
 
 ![IP config before](Images/IPconfig1.JPG)
-  IP config before setting up the bridged network.
+
+IP config before setting up the bridged network.
 
 ![IP config after](Images/IPconfig2.JPG)
-  IP config after setting up the bridged network.
+
+IP config after setting up the bridged network.
 
 ![IP test](Images/Bridged.JPG)
-  Verifying that my VM can be reached from my host.
+
+Verifying that my VM can be reached from my host.
