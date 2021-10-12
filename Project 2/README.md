@@ -38,7 +38,6 @@ Initializing versus running the container- Podman is the same as docker and uses
 Run and enter shell- This is also the same as docker and podman uses the -it options to keep the STDIN open as well as allocate a pseudo TTY. This is also used to execute the commands in one location and in one script.  
 Run in detached mode- This is also the same as docker and uses the -d option when using the run command to detach the container. This is used to run the container without interaction so that a certain program can continuously run.
 
-
 ## Logs & Status  
 - Docker: To view the status of a running container I typed sudo docker ps. To view all containers regardless of status I can type sudo docker ps -a. These commands will show the container ID, image, status, and name of each container. To read the logs of a container I can use the command sudo docker logs and then the name of the container.  
 - Podman: To view the status of the containers I can type sudo podman ps as well as sudo podman stats. To view the logs of a container I can type sudo podman logs and the name of a container to view its logs.  
