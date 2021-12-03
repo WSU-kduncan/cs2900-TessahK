@@ -3,7 +3,7 @@
 Docker: Docker has three networking modes, host, none, and bridge.   
 -Bridge routes traffic to the host and doesn't share the namespace.  
 -None creates a fully isolated namespace.  
--Host shares the network stack with the host machine.
+-Host shares the network stack with the host machine.  
 The default mode for Docker is bridge. To bind a host port to a container port, docker run -p 80:8080 nginx can be run for example.
   
 Podman: Podman has eight networking modes, bridge, none, container, host, network, ns, private, and slirp4netns.   
